@@ -1,5 +1,6 @@
 package ARRAY;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class input {
@@ -15,5 +16,8 @@ public static void main(String[] args)
     {
         System.out.println("'"+i+"'"+arr[i]);
     }
+
+    //ARRAY PRINTED AS STRING
+    System.out.println(Arrays.toString(arr));
 }
 }
